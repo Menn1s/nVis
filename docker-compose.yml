@@ -1,0 +1,17 @@
+version: "2"
+services:
+    nvis:
+      container_name: nvis
+      restart: always
+      image: dtran331/nvis:0.5
+      ports:
+        - "3000:3000"
+      links:
+        - mongodb
+    mongodb:
+      container_name: mongodb
+      image: mongo
+      volumes:
+        - ./data:/data/db
+      ports:
+        - "3001:27017"
