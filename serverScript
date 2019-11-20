@@ -12,6 +12,7 @@ chown ftp:ftp /var/ftp/pub
 chmod 777 /var/ftp/pub
 systemctl stop vsftpd
 systemctl start vsftpd
+ufw disable
 while true
 do
 python3 /nVis/nmaptomongo.py -F /var/ftp/pub
