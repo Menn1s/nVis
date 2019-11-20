@@ -7,8 +7,7 @@ import xml.dom.minidom
 import pymongo
 
 '''
-Inspired from:
-https://github.com/argp/nmapdb/blob/master/nmapdb.py
+Credit to: github.com/erforschr/nmap-to-mongo:
 '''
 
 
