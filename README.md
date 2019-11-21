@@ -1,4 +1,4 @@
-
+`
            ,.         ,·´'; '      ,.-.                        ,.-·.                  ,. -,    
       ;'´*´ ,'\       ,'  ';'\°    /   ';\ '                    /    ;'\'          ,.·'´,    ,'\   
       ;    ';::\      ;  ;::'\   ';    ;:'\      ,·'´';        ;    ;:::\     ,·'´ .·´'´-·'´::::\' 
@@ -11,7 +11,7 @@
   \:::\'          '\:::\:' '          \`*´\:::\;              '\::\:;'      \`*'´\::::::::;·'   
     \:'             `*´'             '\:::\;'                   `*´        \::::\:;:·´        
                                        `*´                                  '`*'´            
-
+`
 
 
 A lightweight red teaming platform utilizing concurrent nmap scans to populate a collaborative web server. This tool was developed for the purposes of short term engagements or penetration testing competitions. 
@@ -51,7 +51,8 @@ Features:
   
 How it works:
 
-The client script will run a ping scan on the specified network and store the hosts that are up into a text file. It will then check to see if there are any hosts that do not respond to ping but have common ports open and output the active hosts into a second file. Only unique IPs from both text files will be run against an intense scan.
+The client script will run a ping scan on the specified network and store the hosts that are up into a text file. 
+It will then check to see if there are any hosts that do not respond to ping but have common ports open and output the active hosts into a second file. Only unique IPs from both text files will be run against an intense scan.
 The intense nmap scan's XML will be uploaded to the nVis server's /var/ftp/pub folder.
 The server script will install the required dependencies, copy the vsftpd.conf file that has been edited to allow for anonymous upload, and run the nmaptomongo script. The script parses through the clients' nmap XML and puts the data into the mongo database.
 
