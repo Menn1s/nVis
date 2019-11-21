@@ -1,4 +1,4 @@
-`
+```
            ,.         ,·´'; '      ,.-.                        ,.-·.                  ,. -,    
       ;'´*´ ,'\       ,'  ';'\°    /   ';\ '                    /    ;'\'          ,.·'´,    ,'\   
       ;    ';::\      ;  ;::'\   ';    ;:'\      ,·'´';        ;    ;:::\     ,·'´ .·´'´-·'´::::\' 
@@ -11,7 +11,7 @@
   \:::\'          '\:::\:' '          \`*´\:::\;              '\::\:;'      \`*'´\::::::::;·'   
     \:'             `*´'             '\:::\;'                   `*´        \::::\:;:·´        
                                        `*´                                  '`*'´            
-`
+```
 
 
 A lightweight red teaming platform utilizing concurrent nmap scans to populate a collaborative web server. This tool was developed for the purposes of short term engagements or penetration testing competitions. 
