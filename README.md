@@ -47,7 +47,7 @@ Features:
     
     Orange - In Progress
     Green - Completed
-    Blue - Found something & Will Investigate Later
+    Blue - Found Something + Investigate Later
   
 How it works:
 
