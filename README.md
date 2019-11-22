@@ -49,7 +49,7 @@ Features:
     Green - Completed
     Blue - Found Something + Investigate Later
   
-#How it works:
+# How it works:
 
 The client script will run a ping scan on the specified network and store the hosts that are up into a text file. 
 It will then check to see if there are any hosts that do not respond to ping but have common ports open and output the active hosts into a second file. Only unique IPs from both text files will be run against an intense scan.
@@ -58,7 +58,7 @@ The server script will install the required dependencies, copy the vsftpd.conf f
 
 
   
-##Docker:
+## Docker:
 A simple docker compose scripts pulls a custom ubuntu image with the nVis application and links it to a mongodb container.
 
 The mongodb has an attached volume 'data' in the nVis root directory for persistent data.
