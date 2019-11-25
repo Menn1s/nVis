@@ -63,7 +63,7 @@ A simple docker compose scripts pulls a custom ubuntu image with the nVis applic
 
 The mongodb has an attached volume 'data' in the nVis root directory for persistent data.
 
-##What it looks like:
+## What it looks like:
 ![nVis Screenshot](https://github.com/Menn1s/nVis/blob/master/nVis%20Screenshot.PNG)
 
   
