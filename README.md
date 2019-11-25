@@ -14,7 +14,7 @@
 ```
 
 
-A lightweight red teaming platform utilizing concurrent nmap scans to populate a collaborative web server. This tool was developed for the purposes of short term engagements or penetration testing competitions. 
+A lightweight red teaming platform utilizing concurrent nmap scans to populate a collaborative web server. This tool was developed specifically for the purposes of short term engagements or penetration testing competitions. 
 
 To run the nVis server:
   
