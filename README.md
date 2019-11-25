@@ -13,7 +13,6 @@
                                        `*´                                   '`*'´            
 ```
 
-![nVis Screenshot](https://github.com/Menn1s/nVis/blob/master/nVis%20Screenshot.PNG)
 A lightweight red teaming platform utilizing concurrent nmap scans to populate a collaborative web server. This tool was developed specifically for the purposes of short term engagements or penetration testing competitions. 
 
 To run the nVis server:
@@ -63,7 +62,9 @@ The server script will install the required dependencies, copy the vsftpd.conf f
 A simple docker compose scripts pulls a custom ubuntu image with the nVis application and links it to a mongodb container.
 
 The mongodb has an attached volume 'data' in the nVis root directory for persistent data.
-  
+
+##What it looks like:
+![nVis Screenshot](https://github.com/Menn1s/nVis/blob/master/nVis%20Screenshot.PNG)
 
   
   
