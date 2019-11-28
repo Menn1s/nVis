@@ -1,0 +1,160 @@
+# Nmap 7.80 scan initiated Fri Nov 15 20:25:45 2019 as: nmap -sV -T5 -iL scan.txt -oA fragfest
+Host: 10.1.1.1 (pfSense.localdomain)	Status: Up
+Host: 10.1.1.1 (pfSense.localdomain)	Ports: 53/open/tcp//domain//(generic dns response: NOTIMP)/, 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (997)
+Host: 10.1.1.9 ()	Status: Up
+Host: 10.1.1.9 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/	Ignored State: closed (999)
+Host: 10.1.1.22 ()	Status: Up
+Host: 10.1.1.22 ()	Ports: 23/open/tcp//telnet//Cisco router telnetd/, 80/open/tcp//http//Cisco IOS http config/, 443/open/tcp//ssl|https?///	Ignored State: closed (997)
+Host: 10.1.1.26 ()	Status: Up
+Host: 10.1.1.26 ()	Ports: 100/filtered/tcp//newacct///, 1035/filtered/tcp//multidropper///, 1761/filtered/tcp//landesk-rc///, 2875/filtered/tcp//dxmessagebase2///, 3493/filtered/tcp//nut///, 6566/filtered/tcp//sane-port///, 6788/filtered/tcp//smc-http///	Ignored State: closed (993)
+Host: 10.1.1.33 ()	Status: Up
+Host: 10.1.1.33 ()	Ports: 222/filtered/tcp//rsh-spx///, 464/filtered/tcp//kpasswd5///, 912/filtered/tcp//apex-mesh///, 1718/filtered/tcp//h323gatedisc///, 6004/filtered/tcp//X11:4///, 6881/filtered/tcp//bittorrent-tracker///, 9010/filtered/tcp//sdr///, 28201/open/tcp//pharos//Pharos Notify (printing client)/, 35500/filtered/tcp//unknown///	Ignored State: closed (991)
+Host: 10.1.1.35 ()	Status: Up
+Host: 10.1.1.35 ()	Status: Up
+Host: 10.1.1.36 ()	Status: Up
+Host: 10.1.1.36 ()	Status: Up
+Host: 10.1.1.37 ()	Status: Up
+Host: 10.1.1.37 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)/	Ignored State: filtered (997)
+Host: 10.1.1.39 ()	Status: Up
+Host: 10.1.1.39 ()	Status: Up
+Host: 10.1.1.40 ()	Status: Up
+Host: 10.1.1.40 ()	Ports: 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.41 ()	Status: Up
+Host: 10.1.1.41 ()	Status: Up
+Host: 10.1.1.42 ()	Status: Up
+Host: 10.1.1.42 ()	Status: Up
+Host: 10.1.1.43 ()	Status: Up
+Host: 10.1.1.43 ()	Status: Up
+Host: 10.1.1.44 ()	Status: Up
+Host: 10.1.1.44 ()	Status: Up
+Host: 10.1.1.45 ()	Status: Up
+Host: 10.1.1.45 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)/	Ignored State: filtered (997)
+Host: 10.1.1.47 ()	Status: Up
+Host: 10.1.1.47 ()	Status: Up
+Host: 10.1.1.49 ()	Status: Up
+Host: 10.1.1.49 ()	Ports: 4848/filtered/tcp//appserv-http///, 7778/filtered/tcp//interwise///, 9110/filtered/tcp//unknown///, 62078/open/tcp//tcpwrapped///	Ignored State: closed (996)
+Host: 10.1.1.50 ()	Status: Up
+Host: 10.1.1.50 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)/, 28201/open/tcp//pharos//Pharos Notify (printing client)/	Ignored State: filtered (996)
+Host: 10.1.1.51 ()	Status: Up
+Host: 10.1.1.51 ()	Ports: 6646/open/tcp//tcpwrapped///	Ignored State: filtered (999)
+Host: 10.1.1.52 ()	Status: Up
+Host: 10.1.1.52 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///	Ignored State: filtered (997)
+Host: 10.1.1.55 ()	Status: Up
+Host: 10.1.1.55 ()	Ports: 6646/open/tcp//tcpwrapped///	Ignored State: filtered (999)
+Host: 10.1.1.56 ()	Status: Up
+Host: 10.1.1.56 ()	Ports: 9009/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.57 ()	Status: Up
+Host: 10.1.1.57 ()	Ports: 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.58 ()	Status: Up
+Host: 10.1.1.58 ()	Status: Up
+Host: 10.1.1.61 ()	Status: Up
+Host: 10.1.1.61 ()	Status: Up
+Host: 10.1.1.62 ()	Status: Up
+Host: 10.1.1.62 ()	Ports: 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.63 ()	Status: Up
+Host: 10.1.1.63 ()	Ports: 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.65 ()	Status: Up
+Host: 10.1.1.65 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///	Ignored State: filtered (997)
+Host: 10.1.1.67 ()	Status: Up
+Host: 10.1.1.67 ()	Ports: 3306/open/tcp//mysql//MySQL (unauthorized)/, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (998)
+Host: 10.1.1.68 ()	Status: Up
+Host: 10.1.1.68 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 10.0/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 1801/open/tcp//msmq?///, 2103/open/tcp//msrpc//Microsoft Windows RPC/, 2105/open/tcp//msrpc//Microsoft Windows RPC/, 2107/open/tcp//msrpc//Microsoft Windows RPC/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Services/, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (990)
+Host: 10.1.1.69 ()	Status: Up
+Host: 10.1.1.69 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///	Ignored State: filtered (997)
+Host: 10.1.1.70 ()	Status: Up
+Host: 10.1.1.70 ()	Status: Up
+Host: 10.1.1.71 ()	Status: Up
+Host: 10.1.1.71 ()	Status: Up
+Host: 10.1.1.72 ()	Status: Up
+Host: 10.1.1.72 ()	Status: Up
+Host: 10.1.1.73 ()	Status: Up
+Host: 10.1.1.73 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///	Ignored State: filtered (997)
+Host: 10.1.1.75 ()	Status: Up
+Host: 10.1.1.75 ()	Status: Up
+Host: 10.1.1.76 ()	Status: Up
+Host: 10.1.1.76 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 2968/open/tcp//enpp?///, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (995)
+Host: 10.1.1.78 ()	Status: Up
+Host: 10.1.1.78 ()	Ports: 554/closed/tcp//rtsp///, 3389/closed/tcp//ms-wbt-server///, 3390/closed/tcp//dsc///, 5004/closed/tcp//avt-profile-1///, 7777/closed/tcp//cbt///, 7778/closed/tcp//interwise///, 50006/closed/tcp//unknown///	Ignored State: filtered (993)
+Host: 10.1.1.79 ()	Status: Up
+Host: 10.1.1.79 ()	Ports: 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 3580/open/tcp//http//National Instruments LabVIEW service locator httpd 1.0.0/, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 8080/open/tcp//http//Embedthis HTTP lib httpd/, 28201/open/tcp//pharos//Pharos Notify (printing client)/, 48080/open/tcp//ossec-agent//OSSEC Agent/
+Host: 10.1.1.80 ()	Status: Up
+Host: 10.1.1.80 ()	Status: Up
+Host: 10.1.1.81 ()	Status: Up
+Host: 10.1.1.81 ()	Ports: 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 9009/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/
+Host: 10.1.1.83 ()	Status: Up
+Host: 10.1.1.83 ()	Status: Up
+Host: 10.1.1.84 ()	Status: Up
+Host: 10.1.1.84 ()	Status: Up
+Host: 10.1.1.85 ()	Status: Up
+Host: 10.1.1.85 ()	Status: Up
+Host: 10.1.1.86 ()	Status: Up
+Host: 10.1.1.86 ()	Ports: 3703/filtered/tcp//adobeserver-3///, 5060/filtered/tcp//sip///, 7002/filtered/tcp//afs3-prserver///, 58080/filtered/tcp//unknown///	Ignored State: closed (996)
+Host: 10.1.1.87 ()	Status: Up
+Host: 10.1.1.87 ()	Ports: 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.88 ()	Status: Up
+Host: 10.1.1.88 ()	Status: Up
+Host: 10.1.1.90 ()	Status: Up
+Host: 10.1.1.90 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 2869/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (996)
+Host: 10.1.1.92 ()	Status: Up
+Host: 10.1.1.92 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (996)
+Host: 10.1.1.93 ()	Status: Up
+Host: 10.1.1.93 ()	Status: Up
+Host: 10.1.1.97 ()	Status: Up
+Host: 10.1.1.97 ()	Status: Up
+Host: 10.1.1.98 ()	Status: Up
+Host: 10.1.1.98 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//(workgroup: WORKGROUP)/	Ignored State: filtered (997)
+Host: 10.1.1.101 ()	Status: Up
+Host: 10.1.1.101 ()	Ports: 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.102 ()	Status: Up
+Host: 10.1.1.102 ()	Status: Up
+Host: 10.1.1.103 ()	Status: Up
+Host: 10.1.1.103 ()	Ports: 2968/open/tcp//enpp?///	Ignored State: filtered (999)
+Host: 10.1.1.105 ()	Status: Up
+Host: 10.1.1.105 ()	Ports: 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.107 ()	Status: Up
+Host: 10.1.1.107 ()	Status: Up
+Host: 10.1.1.108 ()	Status: Up
+Host: 10.1.1.108 ()	Ports: 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.110 ()	Status: Up
+Host: 10.1.1.110 ()	Ports: 88/open/tcp//kerberos-sec//Heimdal Kerberos (server time: 2019-11-16 04:33:25Z)/, 5900/open/tcp//vnc//Apple remote desktop vnc/, 49175/open/tcp//unknown///	Ignored State: filtered (997)
+Host: 10.1.1.111 ()	Status: Up
+Host: 10.1.1.111 ()	Ports: 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.112 ()	Status: Up
+Host: 10.1.1.112 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (996)
+Host: 10.1.1.113 ()	Status: Up
+Host: 10.1.1.113 ()	Ports: 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.115 ()	Status: Up
+Host: 10.1.1.115 ()	Ports: 32/filtered/tcp//unknown///, 50006/filtered/tcp//unknown///	Ignored State: closed (998)
+Host: 10.1.1.119 ()	Status: Up
+Host: 10.1.1.119 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (996)
+Host: 10.1.1.122 ()	Status: Up
+Host: 10.1.1.122 ()	Status: Up
+Host: 10.1.1.123 ()	Status: Up
+Host: 10.1.1.123 ()	Status: Up
+Host: 10.1.1.124 ()	Status: Up
+Host: 10.1.1.124 ()	Status: Up
+Host: 10.1.1.125 ()	Status: Up
+Host: 10.1.1.125 ()	Status: Up
+Host: 10.1.1.126 ()	Status: Up
+Host: 10.1.1.126 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///	Ignored State: filtered (997)
+Host: 10.1.1.128 ()	Status: Up
+Host: 10.1.1.128 ()	Ports: 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (999)
+Host: 10.1.1.134 ()	Status: Up
+Host: 10.1.1.134 ()	Ports: 28201/open/tcp//pharos//Pharos Notify (printing client)/	Ignored State: filtered (999)
+Host: 10.1.1.137 ()	Status: Up
+Host: 10.1.1.137 ()	Ports: 5280/open/tcp//flexlm//FlexLM license manager/	Ignored State: filtered (999)
+Host: 10.1.1.139 ()	Status: Up
+Host: 10.1.1.139 ()	Ports: 6646/open/tcp//tcpwrapped///	Ignored State: filtered (999)
+Host: 10.1.1.141 ()	Status: Up
+Host: 10.1.1.141 ()	Status: Up
+Host: 10.1.1.142 ()	Status: Up
+Host: 10.1.1.142 ()	Ports: 6646/open/tcp//tcpwrapped///	Ignored State: filtered (999)
+Host: 10.1.1.143 ()	Status: Up
+Host: 10.1.1.143 ()	Status: Up
+Host: 10.1.1.144 ()	Status: Up
+Host: 10.1.1.144 ()	Status: Up
+Host: 10.1.1.146 ()	Status: Up
+Host: 10.1.1.146 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (996)
+Host: 10.1.1.148 ()	Status: Up
+Host: 10.1.1.148 ()	Ports: 3000/open/tcp//ppp?///, 28201/open/tcp//pharos//Pharos Notify (printing client)/
+# Nmap done at Fri Nov 15 20:45:13 2019 -- 80 IP addresses (79 hosts up) scanned in 1167.91 seconds

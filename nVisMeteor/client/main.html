@@ -1,0 +1,89 @@
+
+<head>
+  <title>nVis</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1 style="padding-left: 3rem; padding-bottom: 1.5rem; padding-top: 1.5rem">nVis</h1>
+  <div class="container-fluid" style="padding-left: 2.5rem;">
+    <div class="row" style="padding-left: 0rem;">
+      {{> serverList}}
+    </div>
+  </div>
+</body>
+
+<template class="container" name="serverList">
+  <div>
+    {{#each servers}}
+    <div class="card {{#if isInProgress}}bg-warning{{/if}} {{#if isPopped}}bg-success{{/if}} {{#if needHelp}}bg-info{{/if}}" style="padding-left: 2.5rem; padding-top: 0.5rem; padding-bottom: 0.25rem; text-align: left;">
+      <div id="cycleDiv" class="btn">
+        <h2>{{> server}}</h2>
+      </div>
+      <a class="btn btn-primary col-sm" data-toggle="collapse" href="#serviceCollapse{{@index}}" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Toggle expand
+      </a>
+      <div>
+        <ul class="collapse list-inline align-top" id="serviceCollapse{{@index}}">
+            {{#each services}}
+              {{#if isSameIP ../ip ip}}
+                <li class="list-group-item" style="padding-left: 2.5rem; padding-right: 2.5rem; height:15rem; background-color: white; color: black">{{> service}}</li>
+              {{/if}}
+            {{/each}}
+          </ul>
+      </div>
+      </div>
+    {{/each}}
+  </div>
+</template>
+
+<template name="servicesList" class="container">
+  <ul class="list-inline align-top">
+    {{#each services}}
+    <li class="list-group-item" style="padding-left: 2.5rem; padding-right: 2.5rem; height:15rem;">{{> service}}</li>
+    {{/each}}
+  </ul>
+</template>
+
+
+<template name="todosList">
+  <h3>todos</h3>
+  <form id="todo-form">
+    <input type="text" name="label">
+  </form>
+  <button id="reverse-sort" class="btn btn-default">Reverse sort</button>
+  <ul>
+    {{#each todos}}
+      {{> todo}}
+    {{/each}}
+  </ul>
+</template>
+
+<template name="server">
+  <div>{{hostname}}, {{ip}}, ports open: {{ports_open}}, state: {{state}}</div>
+</template>
+
+
+<template name="service">
+  <div>
+    <h3>{{service}}</h3>
+    <div>ip:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ip}}</div>
+    <div>port:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{port}}</div>
+    <div>product: &nbsp;&nbsp;&nbsp;&nbsp;{{product}}</div>
+    <div>state:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{state}}</div>
+    <div>version: &nbsp;&nbsp;&nbsp;&nbsp;{{version}}</div>
+  </div>
+</template>
+
+<template name="todo">
+  <li class="{{#if done}}done{{/if}}">
+    <input type="checkbox" checked="{{#if done}}checked{{/if}}"/>
+    {{label}}
+    <button class="delete btn btn-default">X{{done}}</button>
+    {{createdAt}}
+  </li>
+</template>
+
+<template name="serviceIP">
+  {{ip}}
+</template>

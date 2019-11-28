@@ -1,0 +1,12 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.test {
+  background-color: red;
+}

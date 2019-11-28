@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Wed Nov  6 20:02:23 2019 as: nmap -sC -sV -oA potato potato.monster
+Host: 52.8.43.97 (dennistran.net)	Status: Up
+Host: 52.8.43.97 (dennistran.net)	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//nginx 1.14.0 (Ubuntu)/, 443/closed/tcp//https///, 9000/closed/tcp//cslistener///, 9001/open/tcp//tor-orport?///	Ignored State: filtered (995)
+# Nmap done at Wed Nov  6 20:04:07 2019 -- 1 IP address (1 host up) scanned in 103.91 seconds

@@ -1,0 +1,22 @@
+# Nmap 7.80 scan initiated Wed Nov  6 20:02:23 2019 as: nmap -sC -sV -oA potato potato.monster
+Nmap scan report for potato.monster (52.8.43.97)
+Host is up (0.014s latency).
+rDNS record for 52.8.43.97: dennistran.net
+Not shown: 995 filtered ports
+PORT     STATE  SERVICE     VERSION
+22/tcp   open   ssh         OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 72:78:c9:83:4f:07:17:35:19:d1:57:fe:3b:aa:95:50 (RSA)
+|   256 ac:78:f1:d7:9f:e0:56:fc:a1:b7:a9:7a:f4:93:59:11 (ECDSA)
+|_  256 1f:9e:53:74:09:30:bf:a7:d5:c7:fe:f9:c2:0e:6a:a0 (ED25519)
+80/tcp   open   http        nginx 1.14.0 (Ubuntu)
+|_http-generator: Gatsby 2.15.28
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: Home | &gt;Potato Monster
+443/tcp  closed https
+9000/tcp closed cslistener
+9001/tcp open   tor-orport?
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov  6 20:04:07 2019 -- 1 IP address (1 host up) scanned in 103.91 seconds

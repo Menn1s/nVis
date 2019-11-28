@@ -1,0 +1,671 @@
+# Nmap 7.80 scan initiated Fri Nov 15 20:25:45 2019 as: nmap -sV -T5 -iL scan.txt -oA fragfest
+Warning: 10.1.1.86 giving up on port because retransmission cap hit (2).
+Warning: 10.1.1.33 giving up on port because retransmission cap hit (2).
+Warning: 10.1.1.26 giving up on port because retransmission cap hit (2).
+Warning: 10.1.1.49 giving up on port because retransmission cap hit (2).
+Warning: 10.1.1.115 giving up on port because retransmission cap hit (2).
+Warning: 10.1.1.81 giving up on port because retransmission cap hit (2).
+Nmap scan report for pfSense.localdomain (10.1.1.1)
+Host is up (0.00029s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE  VERSION
+53/tcp  open  domain   (generic dns response: NOTIMP)
+80/tcp  open  http     nginx
+443/tcp open  ssl/http nginx
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.80%I=7%D=11/15%Time=5DCF7C0E%P=x86_64-apple-darwin18.6.0
+SF:%r(DNSVersionBindReqTCP,20,"\0\x1e\0\x06\x81\x85\0\x01\0\0\0\0\0\0\x07v
+SF:ersion\x04bind\0\0\x10\0\x03")%r(DNSStatusRequestTCP,E,"\0\x0c\0\0\x90\
+SF:x04\0\0\0\0\0\0\0\0");
+MAC Address: 00:0C:29:0D:B7:47 (VMware)
+
+Nmap scan report for 10.1.1.9
+Host is up (0.00036s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+MAC Address: 00:0C:29:2F:D5:CE (VMware)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 10.1.1.22
+Host is up (0.0015s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE    VERSION
+23/tcp  open  telnet     Cisco router telnetd
+80/tcp  open  http       Cisco IOS http config
+443/tcp open  ssl/https?
+MAC Address: 00:25:B4:C1:6E:C0 (Cisco Systems)
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 10.1.1.26
+Host is up (0.11s latency).
+Not shown: 993 closed ports
+PORT     STATE    SERVICE        VERSION
+100/tcp  filtered newacct
+1035/tcp filtered multidropper
+1761/tcp filtered landesk-rc
+2875/tcp filtered dxmessagebase2
+3493/tcp filtered nut
+6566/tcp filtered sane-port
+6788/tcp filtered smc-http
+MAC Address: 78:8A:20:86:84:B7 (Ubiquiti Networks)
+
+Nmap scan report for 10.1.1.33
+Host is up (0.12s latency).
+Not shown: 991 closed ports
+PORT      STATE    SERVICE            VERSION
+222/tcp   filtered rsh-spx
+464/tcp   filtered kpasswd5
+912/tcp   filtered apex-mesh
+1718/tcp  filtered h323gatedisc
+6004/tcp  filtered X11:4
+6881/tcp  filtered bittorrent-tracker
+9010/tcp  filtered sdr
+28201/tcp open     pharos             Pharos Notify (printing client)
+35500/tcp filtered unknown
+MAC Address: DC:A9:04:87:91:E0 (Apple)
+
+Nmap scan report for 10.1.1.35
+Host is up (0.00060s latency).
+All 1000 scanned ports on 10.1.1.35 are filtered
+MAC Address: D8:CB:8A:F4:80:8A (Micro-star Intl)
+
+Nmap scan report for 10.1.1.36
+Host is up (0.042s latency).
+All 1000 scanned ports on 10.1.1.36 are filtered
+MAC Address: 38:00:25:0F:F1:3B (Intel Corporate)
+
+Nmap scan report for 10.1.1.37
+Host is up (0.023s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE      VERSION
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+MAC Address: 4C:CC:6A:FE:E8:78 (Micro-star Intl)
+Service Info: Host: DESKTOP-4RCH81R; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.39
+Host is up (0.0012s latency).
+All 1000 scanned ports on 10.1.1.39 are filtered
+MAC Address: 00:1F:BC:12:E7:CC (Evga)
+
+Nmap scan report for 10.1.1.40
+Host is up (0.0011s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 00:D8:61:0E:7C:04 (Micro-star Intl)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.41
+Host is up (0.043s latency).
+All 1000 scanned ports on 10.1.1.41 are filtered
+MAC Address: 28:16:A8:5C:D7:AE (Microsoft)
+
+Nmap scan report for 10.1.1.42
+Host is up (0.0019s latency).
+All 1000 scanned ports on 10.1.1.42 are filtered
+MAC Address: 40:16:7E:12:D7:82 (Asustek Computer)
+
+Nmap scan report for 10.1.1.43
+Host is up (0.0032s latency).
+All 1000 scanned ports on 10.1.1.43 are filtered
+MAC Address: 04:D9:F5:7E:3A:B8 (Asustek Computer)
+
+Nmap scan report for 10.1.1.44
+Host is up (0.00070s latency).
+All 1000 scanned ports on 10.1.1.44 are filtered
+MAC Address: 1C:1B:0D:E7:E2:2F (Giga-byte Technology)
+
+Nmap scan report for 10.1.1.45
+Host is up (0.0031s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE      VERSION
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+MAC Address: 4C:CC:6A:6C:D6:2B (Micro-star Intl)
+Service Info: Host: KYON; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.47
+Host is up (0.0038s latency).
+All 1000 scanned ports on 10.1.1.47 are filtered
+MAC Address: 00:90:9E:9D:8C:13 (Critical IO)
+
+Nmap scan report for 10.1.1.49
+Host is up (0.14s latency).
+Not shown: 996 closed ports
+PORT      STATE    SERVICE      VERSION
+4848/tcp  filtered appserv-http
+7778/tcp  filtered interwise
+9110/tcp  filtered unknown
+62078/tcp open     tcpwrapped
+MAC Address: D4:A3:3D:07:03:E5 (Apple)
+
+Nmap scan report for 10.1.1.50
+Host is up (0.0011s latency).
+Not shown: 996 filtered ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+28201/tcp open  pharos       Pharos Notify (printing client)
+MAC Address: A8:1E:84:AD:CF:60 (Quanta Computer)
+Service Info: Host: LAPTOP-5GRV2JUB; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.51
+Host is up (0.0025s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE    VERSION
+6646/tcp open  tcpwrapped
+MAC Address: 14:18:77:C8:57:91 (Dell)
+
+Nmap scan report for 10.1.1.52
+Host is up (0.0017s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: 54:AB:3A:47:1B:1C (Quanta Computer)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.55
+Host is up (0.044s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE    VERSION
+6646/tcp open  tcpwrapped
+MAC Address: 10:5B:AD:C7:81:37 (Mega Well Limited)
+
+Nmap scan report for 10.1.1.56
+Host is up (0.0042s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+9009/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: E0:D5:5E:0F:3E:E2 (Giga-byte Technology)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.57
+Host is up (0.00068s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: D4:3D:7E:91:54:4D (Micro-Star Int'l)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.58
+Host is up (0.0010s latency).
+All 1000 scanned ports on 10.1.1.58 are filtered
+MAC Address: B4:A9:FC:03:C5:37 (Quanta Computer)
+
+Nmap scan report for 10.1.1.61
+Host is up (0.0012s latency).
+All 1000 scanned ports on 10.1.1.61 are filtered
+MAC Address: 70:85:C2:C5:E6:1B (ASRock Incorporation)
+
+Nmap scan report for 10.1.1.62
+Host is up (0.00087s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 30:9C:23:EC:52:8E (Micro-star Intl)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.63
+Host is up (0.0011s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 00:D8:61:4F:E5:3F (Micro-star Intl)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.65
+Host is up (0.00065s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: 0C:9D:92:82:C2:ED (Asustek Computer)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.67
+Host is up (0.12s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql   MySQL (unauthorized)
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 48:A4:72:63:82:6F (Intel Corporate)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.68
+Host is up (0.00051s latency).
+Not shown: 990 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Microsoft IIS httpd 10.0
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+1801/tcp open  msmq?
+2103/tcp open  msrpc         Microsoft Windows RPC
+2105/tcp open  msrpc         Microsoft Windows RPC
+2107/tcp open  msrpc         Microsoft Windows RPC
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 04:D4:C4:53:65:9E (Asustek Computer)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.69
+Host is up (0.0012s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: A8:1E:84:30:CB:2F (Quanta Computer)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.70
+Host is up (0.00081s latency).
+All 1000 scanned ports on 10.1.1.70 are filtered
+MAC Address: 04:D4:C4:6E:4B:65 (Asustek Computer)
+
+Nmap scan report for 10.1.1.71
+Host is up (0.0015s latency).
+All 1000 scanned ports on 10.1.1.71 are filtered
+MAC Address: 70:85:C2:C8:0F:D5 (ASRock Incorporation)
+
+Nmap scan report for 10.1.1.72
+Host is up (0.00081s latency).
+All 1000 scanned ports on 10.1.1.72 are filtered
+MAC Address: 04:D4:C4:79:21:C1 (Asustek Computer)
+
+Nmap scan report for 10.1.1.73
+Host is up (0.00073s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: D8:CB:8A:74:4A:D7 (Micro-star Intl)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.75
+Host is up (0.0011s latency).
+All 1000 scanned ports on 10.1.1.75 are filtered
+MAC Address: 54:BF:64:16:8A:DB (Dell)
+
+Nmap scan report for 10.1.1.76
+Host is up (0.0013s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+2968/tcp open  enpp?
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 70:85:C2:57:AE:AF (ASRock Incorporation)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.78
+Host is up (0.0013s latency).
+Not shown: 993 filtered ports
+PORT      STATE  SERVICE       VERSION
+554/tcp   closed rtsp
+3389/tcp  closed ms-wbt-server
+3390/tcp  closed dsc
+5004/tcp  closed avt-profile-1
+7777/tcp  closed cbt
+7778/tcp  closed interwise
+50006/tcp closed unknown
+MAC Address: A4:4C:C8:5D:CC:D3 (Dell)
+
+Nmap scan report for 10.1.1.79
+Host is up (0.00090s latency).
+Not shown: 929 filtered ports, 64 closed ports
+PORT      STATE SERVICE       VERSION
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3580/tcp  open  http          National Instruments LabVIEW service locator httpd 1.0.0
+5357/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+8080/tcp  open  http          Embedthis HTTP lib httpd
+28201/tcp open  pharos        Pharos Notify (printing client)
+48080/tcp open  ossec-agent   OSSEC Agent
+MAC Address: E8:6A:64:77:12:8F (Lcfc(hefei) Electronics Technology)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.80
+Host is up (0.00059s latency).
+All 1000 scanned ports on 10.1.1.80 are closed
+MAC Address: 00:D9:D1:3E:70:A2 (Sony Interactive Entertainment)
+
+Nmap scan report for 10.1.1.81
+Host is up (0.00062s latency).
+Not shown: 932 filtered ports, 64 closed ports
+PORT     STATE SERVICE       VERSION
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+9009/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: E0:D5:5E:64:9F:15 (Giga-byte Technology)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.83
+Host is up (0.0033s latency).
+All 1000 scanned ports on 10.1.1.83 are filtered
+MAC Address: 2C:4D:54:68:53:94 (Asustek Computer)
+
+Nmap scan report for 10.1.1.84
+Host is up (0.00057s latency).
+All 1000 scanned ports on 10.1.1.84 are filtered
+MAC Address: 30:9C:23:5E:DB:E7 (Micro-star Intl)
+
+Nmap scan report for 10.1.1.85
+Host is up (0.0015s latency).
+All 1000 scanned ports on 10.1.1.85 are filtered
+MAC Address: 2C:4D:54:F3:6B:5D (Asustek Computer)
+
+Nmap scan report for 10.1.1.86
+Host is up (0.16s latency).
+Not shown: 996 closed ports
+PORT      STATE    SERVICE       VERSION
+3703/tcp  filtered adobeserver-3
+5060/tcp  filtered sip
+7002/tcp  filtered afs3-prserver
+58080/tcp filtered unknown
+MAC Address: 44:5E:CD:91:46:AE (Razer)
+
+Nmap scan report for 10.1.1.87
+Host is up (0.00049s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 4C:CC:6A:F7:53:6A (Micro-star Intl)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.88
+Host is up (0.0018s latency).
+All 1000 scanned ports on 10.1.1.88 are filtered
+MAC Address: 2C:4D:54:58:84:39 (Asustek Computer)
+
+Nmap scan report for 10.1.1.90
+Host is up (0.0010s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+2869/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 44:8A:5B:42:DA:67 (Micro-Star INT'L)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.92
+Host is up (0.12s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 38:DE:AD:A2:04:63 (Intel Corporate)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.93
+Host is up (0.0010s latency).
+All 1000 scanned ports on 10.1.1.93 are filtered
+MAC Address: D8:CB:8A:C2:AA:5E (Micro-star Intl)
+
+Nmap scan report for 10.1.1.97
+Host is up (0.00092s latency).
+All 1000 scanned ports on 10.1.1.97 are filtered
+MAC Address: 80:FA:5B:41:FB:53 (Clevo)
+
+Nmap scan report for 10.1.1.98
+Host is up (0.0010s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE      VERSION
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds (workgroup: WORKGROUP)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port445-TCP:V=7.80%I=7%D=11/15%Time=5DCF7C19%P=x86_64-apple-darwin18.6.
+SF:0%r(SMBProgNeg,7B,"\0\0\0w\xffSMBr\0\0\0\0\x88\x01@\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0@\x06\0\0\x01\0\x11\x07\0\x032\0\x01\0\0@\0\0\0\0\x01\0\0\0\0\0
+SF:\xfc\xe3\x01\0\n\xe1\xfc\xfb6\x9c\xd5\x01\xe0\x01\x082\0\xa7O\xba7\xc3\
+SF:x7f\x08\xf4W\0O\0R\0K\0G\0R\0O\0U\0P\0\0\0F\0O\0O\0L\0Y\0C\0O\0O\0L\0Y\
+SF:0\0\0");
+MAC Address: 0C:9D:92:C2:C5:A4 (Asustek Computer)
+Service Info: Host: FOOLYCOOLY; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.101
+Host is up (0.12s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 30:24:32:20:17:9B (Intel Corporate)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.102
+Host is up (0.00082s latency).
+All 1000 scanned ports on 10.1.1.102 are filtered
+MAC Address: C8:D9:D2:A0:DE:71 (Hewlett Packard)
+
+Nmap scan report for 10.1.1.103
+Host is up (0.00097s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+2968/tcp open  enpp?
+MAC Address: 00:8C:FA:41:7C:99 (Inventec)
+
+Nmap scan report for 10.1.1.105
+Host is up (0.0012s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 98:28:A6:06:B5:01 (Compal Information (kunshan))
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.107
+Host is up (0.0010s latency).
+All 1000 scanned ports on 10.1.1.107 are filtered
+MAC Address: 04:D4:C4:53:84:53 (Asustek Computer)
+
+Nmap scan report for 10.1.1.108
+Host is up (0.12s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: BC:83:85:CF:13:B8 (Microsoft)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.110
+Host is up (0.14s latency).
+Not shown: 997 filtered ports
+PORT      STATE SERVICE      VERSION
+88/tcp    open  kerberos-sec Heimdal Kerberos (server time: 2019-11-16 04:33:25Z)
+5900/tcp  open  vnc          Apple remote desktop vnc
+49175/tcp open  unknown
+MAC Address: AC:BC:32:B9:E7:8D (Apple)
+Service Info: OS: Mac OS X; CPE: cpe:/o:apple:mac_os_x
+
+Nmap scan report for 10.1.1.111
+Host is up (0.11s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 60:57:18:8D:6A:6C (Intel Corporate)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.112
+Host is up (0.12s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 88:78:73:BE:72:F1 (Intel Corporate)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.113
+Host is up (0.0016s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: B8:6B:23:B5:8E:7C (Toshiba)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.115
+Host is up (0.16s latency).
+Not shown: 998 closed ports
+PORT      STATE    SERVICE VERSION
+32/tcp    filtered unknown
+50006/tcp filtered unknown
+MAC Address: 08:D4:6A:F1:93:D4 (LG Electronics (Mobile Communications))
+
+Nmap scan report for 10.1.1.119
+Host is up (0.022s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 40:8D:5C:29:F5:9D (Giga-byte Technology)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.122
+Host is up (0.0015s latency).
+All 1000 scanned ports on 10.1.1.122 are filtered
+MAC Address: F0:76:1C:B9:92:E7 (Compal Information (kunshan))
+
+Nmap scan report for 10.1.1.123
+Host is up (0.079s latency).
+All 1000 scanned ports on 10.1.1.123 are filtered
+MAC Address: 88:B1:11:39:A0:49 (Intel Corporate)
+
+Nmap scan report for 10.1.1.124
+Host is up (0.079s latency).
+All 1000 scanned ports on 10.1.1.124 are filtered
+MAC Address: C4:85:08:32:D6:83 (Intel Corporate)
+
+Nmap scan report for 10.1.1.125
+Host is up (0.0014s latency).
+All 1000 scanned ports on 10.1.1.125 are filtered
+MAC Address: 78:2B:CB:F2:14:C8 (Dell)
+
+Nmap scan report for 10.1.1.126
+Host is up (0.00064s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: F4:8E:38:E8:1E:67 (Dell)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.128
+Host is up (0.00087s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 30:9C:23:60:87:80 (Micro-star Intl)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.134
+Host is up (0.12s latency).
+Not shown: 999 filtered ports
+PORT      STATE SERVICE VERSION
+28201/tcp open  pharos  Pharos Notify (printing client)
+MAC Address: F8:94:C2:2B:E1:F2 (Intel Corporate)
+
+Nmap scan report for 10.1.1.137
+Host is up (0.00069s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5280/tcp open  flexlm  FlexLM license manager
+MAC Address: 20:47:47:79:09:F8 (Dell)
+
+Nmap scan report for 10.1.1.139
+Host is up (0.0014s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE    VERSION
+6646/tcp open  tcpwrapped
+MAC Address: 10:62:E5:C5:31:8B (Hewlett Packard)
+
+Nmap scan report for 10.1.1.141
+Host is up (0.079s latency).
+All 1000 scanned ports on 10.1.1.141 are filtered
+MAC Address: 9C:B6:D0:6D:12:FD (Rivet Networks)
+
+Nmap scan report for 10.1.1.142
+Host is up (0.086s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE    VERSION
+6646/tcp open  tcpwrapped
+MAC Address: 30:24:32:4A:39:C7 (Intel Corporate)
+
+Nmap scan report for 10.1.1.143
+Host is up (0.084s latency).
+All 1000 scanned ports on 10.1.1.143 are filtered
+MAC Address: BC:83:85:EF:5A:82 (Microsoft)
+
+Nmap scan report for 10.1.1.144
+Host is up (0.081s latency).
+All 1000 scanned ports on 10.1.1.144 are filtered
+MAC Address: 68:07:15:A1:34:2A (Intel Corporate)
+
+Nmap scan report for 10.1.1.146
+Host is up (0.12s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: C4:9D:ED:8A:01:8D (Microsoft)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.1.1.148
+Host is up (0.000027s latency).
+Not shown: 500 filtered ports, 498 closed ports
+PORT      STATE SERVICE VERSION
+3000/tcp  open  ppp?
+28201/tcp open  pharos  Pharos Notify (printing client)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3000-TCP:V=7.80%I=7%D=11/15%Time=5DCF7ED9%P=x86_64-apple-darwin18.6
+SF:.0%r(GetRequest,252C,"HTTP/1\.1\x20200\x20OK\r\ncontent-type:\x20text/h
+SF:tml;\x20charset=utf-8\r\nvary:\x20Accept-Encoding\r\ndate:\x20Sat,\x201
+SF:6\x20Nov\x202019\x2004:45:13\x20GMT\r\nconnection:\x20close\r\n\r\n<!DO
+SF:CTYPE\x20html>\n<html>\n<head>\n\x20\x20<link\x20rel=\"stylesheet\"\x20
+SF:type=\"text/css\"\x20class=\"__meteor-css__\"\x20href=\"/merged-stylesh
+SF:eets\.css\?hash=a4088a90723fed685b99027dd3191cdfff792e39\">\n<title>nVi
+SF:s</title>\n\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"https://maxcdn
+SF:\.bootstrapcdn\.com/bootstrap/4\.0\.0-alpha\.2/css/bootstrap\.min\.css\
+SF:"\x20integrity=\"sha384-y3tfxAZXuh4HwSYylfB\+J125MxIs6mR5FOHamPBG064zB\
+SF:+AFeWH94NdvaCBm8qnd\"\x20crossorigin=\"anonymous\">\n\n</head>\n<body>\
+SF:n\x20\x20<script\x20type=\"text/javascript\">__meteor_runtime_config__\
+SF:x20=\x20JSON\.parse\(decodeURIComponent\(\"%7B%22meteorRelease%22%3A%22
+SF:METEOR%401\.8\.1%22%2C%22meteorEnv%22%3A%7B%22NODE_ENV%22%3A%22developm
+SF:ent%22%2C%22TEST_METADATA%22%3A%22%7B%7D%22%7D%2C%22PUBLIC_SETTINGS%22%
+SF:3A%7B%7D%2C%22ROOT_URL%22%3A%22http%3A%2F%2Flocalhost%3A3000%2F%22%2C%2
+SF:2ROO")%r(HTTPOptions,252C,"HTTP/1\.1\x20200\x20OK\r\ncontent-type:\x20t
+SF:ext/html;\x20charset=utf-8\r\nvary:\x20Accept-Encoding\r\ndate:\x20Sat,
+SF:\x2016\x20Nov\x202019\x2004:45:13\x20GMT\r\nconnection:\x20close\r\n\r\
+SF:n<!DOCTYPE\x20html>\n<html>\n<head>\n\x20\x20<link\x20rel=\"stylesheet\
+SF:"\x20type=\"text/css\"\x20class=\"__meteor-css__\"\x20href=\"/merged-st
+SF:ylesheets\.css\?hash=a4088a90723fed685b99027dd3191cdfff792e39\">\n<titl
+SF:e>nVis</title>\n\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"https://m
+SF:axcdn\.bootstrapcdn\.com/bootstrap/4\.0\.0-alpha\.2/css/bootstrap\.min\
+SF:.css\"\x20integrity=\"sha384-y3tfxAZXuh4HwSYylfB\+J125MxIs6mR5FOHamPBG0
+SF:64zB\+AFeWH94NdvaCBm8qnd\"\x20crossorigin=\"anonymous\">\n\n</head>\n<b
+SF:ody>\n\x20\x20<script\x20type=\"text/javascript\">__meteor_runtime_conf
+SF:ig__\x20=\x20JSON\.parse\(decodeURIComponent\(\"%7B%22meteorRelease%22%
+SF:3A%22METEOR%401\.8\.1%22%2C%22meteorEnv%22%3A%7B%22NODE_ENV%22%3A%22dev
+SF:elopment%22%2C%22TEST_METADATA%22%3A%22%7B%7D%22%7D%2C%22PUBLIC_SETTING
+SF:S%22%3A%7B%7D%2C%22ROOT_URL%22%3A%22http%3A%2F%2Flocalhost%3A3000%2F%22
+SF:%2C%22ROO");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov 15 20:45:13 2019 -- 80 IP addresses (79 hosts up) scanned in 1167.91 seconds
