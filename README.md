@@ -17,6 +17,7 @@ A lightweight red teaming platform utilizing concurrent nmap scans to populate a
 
 nVis prioritizes speed and ease of use, operating with a client-server design! Each client contributes to the MongoDB by running automated repeating scans on specified subnets; these scans are then pushed via ftp to the server (which is started with a single docker-compose command) that then parses and adds them to the front-end.
 
+# Quick-Start
 
 To run the nVis server:
   
@@ -73,10 +74,21 @@ The mongodb has an attached volume 'data' in the nVis root directory for persist
 ![nVis Screenshot](https://github.com/Menn1s/nVis/blob/master/nVis%20Screenshot.PNG)
 
 
-Credits and Thanks to:
 
-Project: nmap-to-mongo https://github.com/erforschr/nmap-to-mongo
+# To-do:  
+- Add a notes function to each host on the website  
+- Add sorting functionality  
+- Use sorting, filters, and multiple pages to increase speed and limit queries per page  
+- Switch to a more secure, flexible client-server interaction with SSH  
+- Indicate new hosts/services  
+
+
+Credits and Thanks to:
+  
+Project: nmap-to-mongo https://github.com/erforschr/nmap-to-mongo  
 License (MIT): https://github.com/erforschr/nmap-to-mongo/blob/master/LICENSE 
+
+
   
   
   
