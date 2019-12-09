@@ -15,3 +15,11 @@ services:
         - ./data:/data/db
       ports:
         - "3001:27017"
+    ssh:
+      container_name: ssh
+      restart: always
+      image: dtran331/ssh:0.6
+      volumes:
+        - ./keys:/keys
+      ports:
+        - "80:80"
