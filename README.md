@@ -25,10 +25,11 @@ To run the nVis server:
   
   1. git clone https://github.com/Menn1s/nVis
   2. cd /nVis
-  3. apt-get update
-  4. docker-compose up -d
-  5. chmod +x serverScript
-  6. ./serverScript 
+  3. apt install docker-compose
+  4. apt-get update
+  5. docker-compose up -d
+  6. chmod +x serverScript
+  7. ./serverScript 
     
 To run the nVis client:
   
@@ -37,12 +38,11 @@ To run the nVis client:
   
   1. git clone https://github.com/Menn1s/nVis
   2. cd /nVis
-  3. apt-get update
-  4. apt install docker-compose
-  5. python3 clientScript.py 
-  6. Enter in the IP of the nVis server
-  7. Enter your name or any unique ID
-  8. Enter in the IP address/CIDR that you are scanning for
+  3. apt-get update 
+  4. python3 clientScript.py 
+  5. Enter in the IP of the nVis server
+  6. Enter your name or any unique ID
+  7. Enter in the IP address/CIDR that you are scanning for
   
   
 To view the web server:
